@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~k3swzKoZ#9rifquIPaQQTAeuuJYczf6jM89HPe5nNd8i2EA3X3aE",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -33,7 +33,7 @@ module.exports = {
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // make true if you want auto reply on status 
 
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴇᴇɴ ʙʏ ᴍᴇ 😆*",
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "false",
     // set the auto reply message on status reply  
 
     WELCOME: process.env.WELCOME || "true",
@@ -76,7 +76,7 @@ module.exports = {
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
     // automatic delete links without removing member 
 
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "27813374457",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2250500694652",
     // add your bot owner number
 
     OWNER_NAME: process.env.OWNER_NAME || "ᴍʀ sᴜɴɢ",
@@ -115,7 +115,7 @@ module.exports = {
     READ_CMD: process.env.READ_CMD || "false",
     // true if want mark commands as read  
 
-    DEV: process.env.DEV || "27813374457",
+    DEV: process.env.DEV || "2250500694652",
     // replace with your whatsapp number  
 
     ANTI_VV: process.env.ANTI_VV || "true",
